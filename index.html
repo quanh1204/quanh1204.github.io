@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Nguyen Quoc Anh - Links</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./src/css/config.css " />
+    <link rel="preload" href="/img/bg01.png" as="image" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        VANTA.BIRDS({
+          el: "#vanta",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: true,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          backgroundAlpha: 0.0,
+          color2: 0xff00f0,
+          wingSpan: 40.0,
+          separation: 100.0,
+          alignment: 77.0,
+          cohesion: 5.0,
+          quantity: 1.0,
+        });
+
+        setTimeout(() => {
+          const main = document.querySelector("main");
+          main.style.opacity = 1;
+          main.style.filter = "blur(0px)";
+        }, 1000);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="vanta"></div>
+    <main class="animated">
+      <header>
+        <img src="./src/img/1.jpg" />
+        <h1>@quocanh.dev</h1>
+      </header>
+      <ul>
+        <li>
+          <a href="https://www.craftz.dog/"target="_blank">
+            <img src="./src/img/homepage.svg" alt="Homepage" width="20" />
+            Official Website
+          </a>
+        </li>
+        <li>
+          <a
+            href="tel://0793391878"target="_blank"
+          >
+            <img src="./src/img/phone.png" alt="Call" width="20" />
+            Call Me
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/bobe.nguyen.77/"target="_blank"
+          >
+            <img src="./src/img/facebook.svg" alt="Facebook" width="20" />
+            Quoc Anh
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/quocanh1204.dev/"target="_blank"
+          >
+            <img src="./src/img/instagram.svg" alt="Instagram" width="20" />
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://scontent.fhan14-4.fna.fbcdn.net/v/t1.15752-9/410794222_938661257647592_4185987908630375635_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGX7akbEfdVyMWfFKX2RHrbFE5KH6_9cmIUTkofr_1yYnIF7fkORDvBSloaq6zETK1w65P48kGgKZ_kkxGOEy7c&_nc_ohc=YbuXjoOt3LUAX-iRg9i&_nc_ht=scontent.fhan14-4.fna&oh=03_AdTROVHAws9NagUmV7xVcC4h7zkZr8IL9mDCktBLf6mJvA&oe=65C2DA63"
+            target="_blank">
+            <img src="./src/img/mb-bank.png" alt="Bank" width="20" />
+           Donate Me
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/quanh1204"target="_blank">
+            <img src="./src/img/github.svg" alt="GitHub" width="20" />
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
