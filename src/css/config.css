@@ -8,6 +8,7 @@ body, html {
   body {
     background: url(../img/bg01.png) no-repeat center center fixed;
     background-size: cover;
+    zoom:125%;
   }
   
   #vanta {
