@@ -163,4 +163,5 @@ window.addEventListener( 'resize', function() {
   starter.y = h / 2;
   
   init();
+  console.log(process.env.API_KEY);
 } )
