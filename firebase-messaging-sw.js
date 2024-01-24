@@ -17,3 +17,12 @@ const app = firebase.initializeApp(firebaseConfig)
 const messaging = firebase.messaging()
 
 
+   if (!('PushManager' in window)) {  
+       console.log('Push messaging isn\'t supported.');  
+       return;  
+     }
+   //
+   if (Notification.permission === 'denied') {  
+      console.log('The user has blocked notifications.');  
+      return;  
+   }
