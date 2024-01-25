@@ -2,7 +2,6 @@ importScripts('https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js'
  importScripts('https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging-compat.js');
 
 
-https://github.com/quanh1204/quanh1204.github.io/blob/main/firebase-messaging-sw.js
  const firebaseConfig = {
   apiKey: "AIzaSyDam-02kb9L8Eifer0W74zDA9DDjCQhndA",
   authDomain: "muc-tieu.firebaseapp.com",
